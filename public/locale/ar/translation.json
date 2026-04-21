@@ -1,0 +1,15 @@
+{
+  "city": "الرياض",
+  "min": "الصغرى",
+  "max": "الكبرى",
+  "clear sky": "سماء صافية",
+  "few clouds": "بعض الغيوم",
+  "scattered clouds": "سحب متفرقة",
+  "broken clouds": "غيوم متفرقة",
+  "shower rain": "زخات مطر",
+  "rain": "مطر", 
+  "thunderstorm": "عاصفة رعدية",
+  "snow": "ثلج", 
+  "mist": "ضباب",
+  "overcast clouds": "سحب متفرقة"
+}
