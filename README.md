@@ -1,16 +1,60 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather application built with React and Vite. This application allows users to check the weather and features full state management, internationalization, and a beautiful UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **State Management**: Utilizes Redux Toolkit for efficient and predictable state management.
+- **UI Components**: Built with Material-UI (MUI) and Emotion for sleek, responsive, and customizable design.
+- **Internationalization (i18n)**: Supports multiple languages using `i18next` and `react-i18next`.
+- **API Integration**: Fetches predictable and robust real-time weather data using `axios`.
+- **Date & Time Formatting**: Handled seamlessly with `moment.js`.
+- **Fast Build Tool**: Powered by Vite for lightning-fast Hot Module Replacement (HMR).
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/) 19
+- [Vite](https://vitejs.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/) & React Redux
+- [Material-UI (MUI)](https://mui.com/)
+- [Axios](https://axios-http.com/)
+- [i18next](https://www.i18next.com/)
+- [Moment.js](https://momentjs.com/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository (if you haven't already):
+   ```bash
+   git clone <your-github-repo-url>
+   cd weather-app
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to the local URL provided by Vite (usually `http://localhost:5173`).
+
+## Building for Production
+
+To create a production-ready build, run:
+```bash
+npm run build
+```
+This will generate optimized files in the `dist` directory. You can preview the build locally using:
+```bash
+npm run preview
+```
