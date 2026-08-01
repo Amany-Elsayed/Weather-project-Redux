@@ -5,4 +5,10 @@ export const store = configureStore({
     reducer: {
         weatherApi: weatherApiReducer
     }
+
+
+
+
+
+    
 })
